@@ -1,21 +1,5 @@
 # OCRA (Object-Centric Recurrent Attention) source code
 
-[Hossein Adeli](https://hosseinadeli.github.io/) and [Seoyoung Ahn](https://ahnchive.github.io/)
-
-Please cite this article if you find this repository useful:
-
-Adeli, H., Ahn, S., & Zelinsky, G. (2021). Recurrent Attention Models with Object-centric Capsule Representation for Multi-object Recognition. arXiv preprint arXiv:2110.04954. [[arxiv](https://arxiv.org/abs/2110.04954)][[pdf](https://arxiv.org/pdf/2110.04954.pdf)] <br/>
-
-@article{adeli2021recurrent,<br/>
-&nbsp;&nbsp;title={Recurrent Attention Models with Object-centric Capsule Representation for Multi-object Recognition},<br/>
-&nbsp;&nbsp;author={Adeli, Hossein and Ahn, Seoyoung and Zelinsky, Gregory},<br/>
-&nbsp;&nbsp;journal={arXiv preprint arXiv:2110.04954},<br/>
-&nbsp;&nbsp;year={2021}<br/>
-}
-
-Short presentation of the work:<br/>
-[![Short presentation of the work](https://img.youtube.com/vi/1MpTtFZx2AY/0.jpg)](https://youtu.be/1MpTtFZx2AY)
-
 -------------------------------------------------------------------------------------------------------
 - For data generation and loading 
 
@@ -38,15 +22,6 @@ Short presentation of the work:<br/>
     
     OCRA_demo-cluttered_5steps_loadtrained.ipynb shows how to load a trained model and test it on the test dataset. Example pretrained models are included in the repository under pretrained folder. [Download](https://drive.google.com/drive/folders/1lBdcMmCdDjumpAm2wlex-PAJm5Wwxtsz?usp=sharing) all the pretrained models. 
     
-    
-
-# Image-level accuracy averaged from 5 runs
-
-| Task (Model name)                     | Error Rate (SD) |
-|---------------------------------------|-----------------|
-| MultiMNIST (OCRA-10glimpse)           | 5.08 (0.17)     |
-| Cluttered MultiMNIST (OCRA-7glimpse)  | 7.12 (1.05)     |
-| MultiSVHN (OCRA-12glimpse)            | 10.07 (0.53)    |
 
 # Validation losses during training
 
